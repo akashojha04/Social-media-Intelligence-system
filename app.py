@@ -17,7 +17,7 @@ st.set_page_config(page_title="Social Media Intelligence System", layout="wide")
 @st.cache_data
 def load_dataset():
     try:
-        df = pd.read_csv(r"F:\\Data Science and Analytics\\Projects\\social media intelligence system\\dataset\\cleaned_twitter_data.csv")
+        df = pd.read_csv("dataset\cleaned_twitter_data.csv")
         st.success("✅ Loaded original dataset successfully!")
         return df
     except:
