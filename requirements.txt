@@ -6,4 +6,5 @@ matplotlib
 wordcloud
 scikit-learn
 nltk
-transformers
+transformers>=4.30.0
+touch>=2.0.0
