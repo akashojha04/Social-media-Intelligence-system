@@ -299,12 +299,12 @@ st.markdown("""
 @st.cache_data
 def load_dataset():
     try:
-        df = pd.read_csv(r"F:\\Data Science and Analytics\\Projects\\social media intelligence system\\dataset\\twitter_training_enhanced.csv")
+        df = pd.read_csv("dataset\twitter_training_enhanced.csv")
         st.success("✅ Dataset Loaded Successfully!")
         return df
     except:
         try:
-            df = pd.read_csv("/home/workdir/attachments/twitter_training_enhanced.csv")
+            df = pd.read_csv("dataset/twitter_training_enhanced.csv")
             st.success("✅ Loaded from attachments!")
             return df
         except:
