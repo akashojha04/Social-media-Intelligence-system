@@ -57,13 +57,14 @@ Featuring a clean, interactive **Streamlit Dashboard**, it is the perfect tool f
 
 ```text
 social-media-intelligence-system/
-├── app.py                      # Main Streamlit Dashboard application
-├── pipeline.ipynb              # Complete Data Science & ML Notebook
-├── requirements.txt            # Python Dependencies
+├── app.py                                              # Main Streamlit Dashboard application
+├── social media intelligence system.ipynb              # Complete Data Science & ML Notebook
+├── requirements.txt                                    # Python Dependencies
 ├── dataset/                    
-│   └── twitter_training_enhanced.csv
-├── models/                     # (Optional) Directory for saved ML models
-└── README.md                   # Project documentation
+    └── twitter_training_enhanced.csv
+    └── cleaned_twitter_data.csv
+├── social media intelligence system.ipynb              # Project documentation
+└── README.md                                     
 🚀 How to Run Locally
 Follow these simple steps to get the project up and running on your local machine:
 
