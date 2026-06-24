@@ -14,6 +14,7 @@ align="center">
 <br>
 
 ![Streamlit Dashboard](screenshot.png)
+Live : https://social-media-intelligence-system-rhwgfpegcjrg7lyueyfcjf.streamlit.app/
 
 </div>
 
